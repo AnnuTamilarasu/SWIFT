@@ -7,5 +7,7 @@ document.addEventListener('DOMContentLoaded', function() {
       <nav class="nav">
         <a href = "index.html"><button>Home</button></a>
         <a href = "help.html"><button>Help</button></a>
+        <a href = "help.html"><button>Help</button></a>
+        
       </nav>`}
 });
