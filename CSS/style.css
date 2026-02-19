@@ -1,16 +1,23 @@
-.container{
+.bg-container{
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    padding-top: 70px;
-    height: 90vH;
+    width: 90vh;
+    height: auto;
+    border-radius: 10%;
+}
+.transparent-title-container{
+    background: rgba(255, 255, 255, 0);
+    padding: 20px;
+    border-radius: 10px;
 }
 .heading{
+    padding: 20px;
     text-align: center;
-    color: #1E90FF;
+    color: #480895;
 }
 .subheading{
     text-align: center;
-    color: #1E90FF;
+    color: #480895;
 }
