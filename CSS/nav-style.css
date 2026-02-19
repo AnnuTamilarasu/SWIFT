@@ -25,3 +25,18 @@
     color: aliceblue;
     padding: 10px 30px;
 }
+.topnav{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    min-height: 3vh;
+    background:#222222;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    padding: 15px;
+    backdrop-filter: blur(10px);
+    box-shadow: 0 2px 10px rgba(37, 1, 95, 0.2);
+    z-index: 1000;
+}
