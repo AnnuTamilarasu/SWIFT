@@ -4,10 +4,17 @@ document.addEventListener('DOMContentLoaded', function() {
 
   if (navbarContainer) {
     navbarContainer.innerHTML = `
+    <div class="navbar">
+      <nav class="top-nav">
+        <a href = "staffportal.html"<Button>Staff Portal</Button></a>
+      </nav>
       <nav class="nav">
         <a href = "index.html"><button>Home</button></a>
-        <a href = "help.html"><button>Help</button></a>
-        <a href = "help.html"><button>Help</button></a>
-        
-      </nav>`}
+        <a href = "admissions.html"><button>Admissions</button></a>
+        <a href = "teachers.html"><button>Staff</button></a>
+        <a href = "projects.html"><button>Projects</button></a>
+
+      </nav>
+    </div>`
+  }
 });
