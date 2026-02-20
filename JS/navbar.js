@@ -6,14 +6,15 @@ document.addEventListener('DOMContentLoaded', function() {
     navbarContainer.innerHTML = `
     <div class="navbar">
       <div class="top-nav">
-        <a href = "staffportal.html"><button>Staff Portal</button></a>
+        
       </div>
-      <div class="nav">
+      <div class="nav2">
         <a href = "index.html"><button>Home</button></a>
         <a href = "admissions.html"><button>Admissions</button></a>
         <a href = "teachers.html"><button>Staff</button></a>
         <a href = "projects.html"><button>Projects</button></a>
-
+        
+        <a href = "staffportal.html"><button>Staff Portal</button></a>
       </div>
     </div>`
   }
