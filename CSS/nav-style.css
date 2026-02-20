@@ -3,7 +3,7 @@
     box-sizing: border-box;
     background-color:#f8eeee;
 }
-.nav{
+.nav2{
     position: fixed;
     top: 0;
     left: 0;
@@ -18,14 +18,14 @@
     box-shadow: 0 2px 10px rgba(37, 1, 95, 0.2);
     z-index: 1000;
 }
-.nav button{
+.nav2 button{
     font-size: 1.5rem;
     background: none;
     border:none;
     color: aliceblue;
     padding: 10px 30px;
 }
-.nav2{
+.nav{
     position: fixed;
     top: 0;
     left: 0;
@@ -41,7 +41,7 @@
     box-shadow: 0 2px 10px rgba(29, 2, 75, 0.2);
     z-index: 1000;
 }
-.nav2 button{
+.nav button{
     font-size: 1.5rem;
     background: none;
     border:none;
