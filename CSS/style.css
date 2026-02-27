@@ -12,11 +12,101 @@
     padding-top: 30vh;
 }
 .heading{
+    font-family: 'DM Sans', sans-serif;
     padding: 20px;
     text-align: center;
     color: #480895;
+    animation: fadeIn 4s forwards;
 }
+
+
+@keyframes fadeIn {
+  from {
+    filter: opacity(0);
+  }
+  to {
+    filter: opacity(1);
+  }
+}
+
 .subheading{
+    font-family: 'DM Sans', sans-serif;
     text-align: center;
     color: #480895;
+    animation: fadeIn 4s forwards;
 }
+
+
+@keyframes fadeIn {
+  from {
+    filter: opacity(0);
+  }
+  to {
+    filter: opacity(1);
+  }
+}
+
+.points{
+    font-family: 'DM Sans', sans-serif;
+    animation: fadeIn 4s forwards;
+    list-style-type: square;
+}
+
+
+@keyframes fadeIn {
+  from {
+    filter: opacity(0);
+  }
+  to {
+    filter: opacity(1);
+  }
+}
+
+
+.swift{
+    font-family: 'DM Sans', sans-serif;
+    padding: 20px;
+    text-align: center;
+    color: #480895;
+    margin-top: 40px;
+    animation: fadeIn 4s forwards;
+}
+
+
+@keyframes fadeIn {
+  from {
+    filter: opacity(0);
+  }
+  to {
+    filter: opacity(1);
+  }
+}
+
+.list {
+  font-family: 'DM Sans', sans-serif;
+  font-size: medium;
+  animation: fadeIn 4s forwards;
+  color:#480895
+}
+
+
+@keyframes fadeIn {
+  from {
+    filter: opacity(0);
+  }
+  to {
+    filter: opacity(1);
+  }
+
+}
+
+
+.calendar iframe {
+  width: 100vw;
+  height: 100vh;
+  border: none;
+}
+
+
+
+

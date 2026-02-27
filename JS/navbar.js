@@ -7,6 +7,7 @@ document.addEventListener('DOMContentLoaded', function() {
     <div class="navbar">
       <div class="top-nav">
         <a href = "staffportal.html"><button>Staff Portal</button></a>
+        <link href="nav-style.css" rel="stylesheet" />
       </div>
       <div class="nav">
         <a href = "index.html"><button>Home</button></a>
